@@ -1,0 +1,19 @@
+# ============================================================================
+# .gitignore
+# ----------------------------------------------------------------------------
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# --- Betriebssystem / IDE ---
+.DS_Store
+.vscode/
+.idea/
+

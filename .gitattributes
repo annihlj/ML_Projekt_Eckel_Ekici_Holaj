@@ -1,0 +1,8 @@
+data/** filter=lfs diff=lfs merge=lfs -text
+models/** filter=lfs diff=lfs merge=lfs -text
+reports/** filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.PNG filter=lfs diff=lfs merge=lfs -text
+
+# Platzhalter mit normalem Git speichern
+**/.gitkeep -filter -diff -merge -text
